@@ -1,0 +1,41 @@
+{
+  "name": "genpark-realtime-canvas-brush-latent-image-enhancer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Real-time brush canvas latent image synthesizer, neural creative upscaler, and low-latency interactive generative design engine.",
+  "author": "genpark",
+  "category": "generative-art",
+  "tags": [
+    "realtime-canvas",
+    "brush-to-image",
+    "neural-upscaler",
+    "creative-ai",
+    "krea-ai"
+  ],
+  "inputs": {
+    "brush_strokes_count": {
+      "type": "integer"
+    },
+    "ai_enhancement_strength_pct": {
+      "type": "number"
+    },
+    "upscale_factor": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "canvas_session_id": {
+      "type": "string"
+    },
+    "canvas_render_latency_ms": {
+      "type": "integer"
+    },
+    "high_frequency_texture_detail_score": {
+      "type": "number"
+    },
+    "enhanced_tensor_canvas_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
